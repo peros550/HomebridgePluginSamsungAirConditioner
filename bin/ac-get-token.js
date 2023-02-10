@@ -19,6 +19,7 @@ function getToken(callback) {
         port: 2878, 
         host: ipAddress, 
         rejectUnauthorized: false,
+        secureProtocol: 'TLSv1_method',
         ciphers: 'HIGH:!DH:!aNULL'
     }
 
